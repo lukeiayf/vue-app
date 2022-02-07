@@ -1,3 +1,3 @@
 <template>
-  <div>User</div>
+  <div>User interface</div>
 </template>
