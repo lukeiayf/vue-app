@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
+import modules from '../composables/modules';
 
 import Home from '../views/Home.vue';
 
@@ -14,8 +15,6 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes,
 });
-
-import modules from '../composables/modules';
 
 Object.values(modules).forEach((module: any) => {
   router.addRoute(module.router);
