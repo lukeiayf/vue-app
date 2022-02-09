@@ -5,7 +5,7 @@
     <div class="flex flex-col items-center justify-center">
       <img
         class="h-52"
-        src="\dist\assets\Followair-Marca-Oficial-_aberto_fechado_monocromatico.png"
+        src="\assets\Followair-Marca-Oficial-_aberto_fechado_monocromatico.png"
       />
       <div class="bg-white shadow rounded lg:w-1/3 md:w-1/2 w-full p-10 mt-4">
         <p
@@ -59,7 +59,7 @@
         <div class="mt-8">
           <button
             role="button"
-            class="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full animate-bounce"
+            class="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full"
           >
             Login
           </button>
