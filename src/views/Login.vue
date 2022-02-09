@@ -1,3 +1,20 @@
+<script setup>
+import { reactive } from 'vue';
+import { useRouter } from 'vue-router';
+
+const form = reactive({
+  login: 'john.doe',
+  pass: 'highly-secure-password-fYjUw-',
+  remember: ['remember'],
+});
+
+const router = useRouter();
+
+const login = () => {
+  router.push('/dashboard');
+};
+</script>
+
 <template>
   <div
     class="h-screen bg-gradient-to-tl from-gray-900 to-indigo-500 w-screen py-16 px-4"
@@ -60,6 +77,7 @@
           <button
             role="button"
             class="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full"
+            @click="login"
           >
             Login
           </button>
