@@ -19,7 +19,7 @@
         <ul class="flex flex-col w-full">
           <li class="my-px">
             <a
-              href="#"
+              href="/Dashboard"
               class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-700 bg-gray-100"
             >
               <span
@@ -70,7 +70,7 @@
                   />
                 </svg>
               </span>
-              <span class="ml-3">Manager</span>
+              <span class="ml-3">Cadastro de aeronaves</span>
             </a>
           </li>
           <li class="my-px">
@@ -95,7 +95,7 @@
                   />
                 </svg>
               </span>
-              <span class="ml-3">Tasks</span>
+              <span class="ml-3">Item de menu</span>
             </a>
           </li>
           <li class="my-px">
@@ -120,7 +120,7 @@
                   />
                 </svg>
               </span>
-              <span class="ml-3">Clients</span>
+              <span class="ml-3">Item de menu</span>
               <span
                 class="flex items-center justify-center text-xs text-red-500 font-semibold bg-red-100 h-6 px-2 rounded-full ml-auto"
                 >1k</span
@@ -180,7 +180,7 @@
                   />
                 </svg>
               </span>
-              <span class="ml-3">Profile</span>
+              <span class="ml-3">Item de menu</span>
             </a>
           </li>
           <li class="my-px">
@@ -205,7 +205,7 @@
                   />
                 </svg>
               </span>
-              <span class="ml-3">Notifications</span>
+              <span class="ml-3">Item de menu</span>
               <span
                 class="flex items-center justify-center text-xs text-red-500 font-semibold bg-red-100 h-6 px-2 rounded-full ml-auto"
                 >10</span
@@ -235,7 +235,7 @@
                   <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </span>
-              <span class="ml-3">Settings</span>
+              <span class="ml-3">Item de menu</span>
             </a>
           </li>
           <li class="my-px">
@@ -326,29 +326,22 @@
               <span class="flex flex-col ml-2">
                 <span
                   class="truncate w-20 font-semibold tracking-wide leading-none"
-                  >John Doe</span
+                  >SISTEMA</span
                 >
                 <span
                   class="truncate w-20 text-gray-500 text-xs leading-none mt-1"
-                  >Manager</span
+                  >Admin</span
                 >
               </span>
             </a>
           </div>
         </div>
       </header>
-      <div class="main-content flex flex-col flex-grow p-4">
-        <h1 class="font-bold text-2xl text-gray-700">Dashboard</h1>
 
-        <div
-          class="flex flex-col flex-grow border-4 border-gray-400 border-dashed bg-white rounded mt-4"
-        ></div>
-      </div>
       <footer class="footer px-4 py-6">
         <div class="footer-content">
           <p class="text-sm text-gray-600 text-center">
-            © Brandname 2020. All rights reserved.
-            <a href="https://twitter.com/iaminos">by iAmine</a>
+            Novo Followair - Desenvolvido por padeiros
           </p>
         </div>
       </footer>
