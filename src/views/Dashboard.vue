@@ -1,17 +1,20 @@
-<template>
-  {{ store.state.nome }}
-  <aside-menu />
-</template>
+<script>
+import SideMenu from '../components/SideMenu.vue';
+import { useRouter } from 'vue-router';
 
-<script lang="ts">
-import { inject } from 'vue';
+const router = useRouter();
+
+const login = () => {
+  router.push('/dashboard');
+};
 
 export default {
-  setup() {
-    const store = inject('store');
-    return {
-      store,
-    };
+  components: {
+    SideMenu,
   },
 };
 </script>
+
+<template>
+  <SideMenu />
+</template>
