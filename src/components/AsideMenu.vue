@@ -2,9 +2,9 @@
 import { computed } from 'vue';
 import { useStore } from 'vuex';
 import { mdiMenu } from '@mdi/js';
-import AsideMenuList from '@/components/AsideMenuList.vue';
-import NavBarItem from '@/components/NavBarItem.vue';
-import Icon from '@/components/Icon.vue';
+import AsideMenuList from './AsideMenuList.vue';
+import NavBarItem from './NavBarItem.vue';
+import Icon from './Icon.vue';
 
 defineProps({
   menu: {

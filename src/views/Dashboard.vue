@@ -1,17 +1,8 @@
-<template>
-  {{ store.state.nome }}
-  <aside-menu />
-</template>
-
-<script lang="ts">
-import { inject } from 'vue';
-
-export default {
-  setup() {
-    const store = inject('store');
-    return {
-      store,
-    };
-  },
-};
+<script setup>
+import { computed } from 'vue';
+import { useStore } from 'vuex';
+import menu from '../definitions/menu.js';
+import AsideMenu from '../components/AsideMenu.vue';
 </script>
+
+<template>dashboard</template>
